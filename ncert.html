@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Document</title>
+</head>
+<header>
+    <section id="container">
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="12.html">Class 12</a>
+        <a href="11.html">Class 11</a>
+        <a href="10.html">Class 10</a>
+        <a href="09.html">Class 09</a>
+      </div>
+      
+      <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ NCERT SOLUTIONS</button>  
+        <script>
+            function openNav() {
+              document.getElementById("mySidebar").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+            }
+            function closeNav() {
+              document.getElementById("mySidebar").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+            }
+            </script>
+      </div>
+    <div id="navibar">  
+    <nav class="navbar">
+        <ul>
+            <li><a href="courses.html">Paid Courses</a></li>
+            <li><a href="quiz.html">Quizzes</a></li>
+            <li><a href="pyq.html">PYQs</a></li>
+            <li><a href="sp.html">Sample papers</a></li>
+            <li><a href="books.html">Books</a></li>
+          </ul>
+    </nav>
+    </div>
+    </section>
+</header>
+<body>
+    
+</body>
+</html>
